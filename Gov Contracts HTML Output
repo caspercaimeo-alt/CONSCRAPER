@@ -1,0 +1,6 @@
+import requests as contracts
+
+response= contracts.get('https://usaspending.gov')
+html = response.text
+
+print(html)
